@@ -1,4 +1,6 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex"></head><body>
+
 <title>東北紅葉紀行</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -376,7 +378,7 @@ footer svg{width:120px;height:40px}
         </div>
         <p class="ticket-note">已付・落地後通關到出關抓 1 小時，再搭 Skyliner 進東京</p>
       </div>
-      <div class="ticket-stub"><small>班機</small><b>IT202</b><small>Notion 備註<br>虎航 12498</small></div>
+      <div class="ticket-stub"><small>班機</small><b>IT202</b></div>
     </article>
     <article class="card ticket back">
       <div class="ticket-main">
@@ -476,12 +478,12 @@ const DAYS = [
    {t:'18:35',p:'成田機場 T2',w:'降落、入境、領行李',n:'通關到出關抓 1 小時'},
    {t:'19:40',p:'成田機場站',w:'Skyliner → 日暮里（41 分）',tags:['train'],$:'¥2,580',n:'末班約 22:30，不必趕'},
    {t:'20:25',p:'日暮里',w:'JR 山手線 → 鶯谷（1 站）',tags:['train'],$:'¥150',n:'隔日新幹線先劃位？'},
-   {t:'20:40',p:'鶯谷',w:'LANDABOUT TOKYO 入住',tags:['stay'],stay:1,$:'NT$4,164',n:'Agoda・品魁訂。飯店附餐酒館，周邊有居酒屋'}
+   {t:'20:40',p:'鶯谷',w:'LANDABOUT TOKYO 入住',tags:['stay'],stay:1,$:'NT$4,164',n:'飯店附餐酒館，周邊有居酒屋'}
   ]},
  {date:'2026-10-25',md:'10/25',wd:'日',title:'八戶・種差海岸',chips:['不租車'],icon:'coast',color:'var(--green)',tint:'var(--green-tint)',stay:'Mets 八戶',
   items:[
    {t:'07:45',p:'鶯谷',w:'退房，山手線 → 上野',tags:['train'],$:'¥150'},
-   {t:'09:14',p:'上野',w:'はやぶさ 9 号 → 八戶（東京 09:08 發）',tags:['shinkansen'],$:'¥17,030',n:'全車指定席，務必先劃位・7 號車 17 番 D・E'},
+   {t:'09:14',p:'上野',w:'はやぶさ 9 号 → 八戶（東京 09:08 發）',tags:['shinkansen'],$:'¥17,030',n:'全車指定席，務必先劃位'},
    {t:'12:01',p:'八戶站',w:'抵達，Mets 八戶寄放行李',n:'飯店地址尻內町館田 1-1，就是車站本體'},
    {t:'彈性',p:'根城',w:'搭公車，蓋百名城印章',tags:['bus']},
    {t:'12:40',p:'八戶站',w:'JR 八戶線 → 鮫（約 25 分）',tags:['train'],$:'約 ¥240',n:'約 1 小時 1 班，出發前務必查當日時刻'},
@@ -493,7 +495,7 @@ const DAYS = [
    {t:'17:10',p:'種差海岸站',w:'JR 八戶線 → 本八戶',tags:['train'],$:'約 ¥420'},
    {t:'18:00',p:'本八戶',w:'みろく橫丁晚餐',n:'屋台村 26 間小店。蛋奶素可點野菜天婦羅、玉子燒、烤蔬菜串，沾醬要確認'},
    {t:'19:30',p:'本八戶',w:'JR 八戶線 → 八戶站（約 6 分）',tags:['train'],$:'約 ¥200',n:'順路在超市買隔天午餐與早餐'},
-   {t:'20:00',p:'八戶站',w:'JR 東日本飯店 Mets 八戶',tags:['stay'],stay:1,$:'¥14,548／間',n:'預約 06NCRXR9・12 平米、140cm 雙人床、素泊・不可免費取消'}
+   {t:'20:00',p:'八戶站',w:'JR 東日本飯店 Mets 八戶',tags:['stay'],stay:1,$:'¥14,548／間',n:'12 平米、140cm 雙人床、素泊・不可免費取消'}
   ]},
  {date:'2026-10-26',md:'10/26',wd:'一',title:'奧入瀨溪流 全日健行',chips:['租車 Day 1','健行 9 km'],icon:'stream',color:'var(--coral)',tint:'var(--coral-tint)',stay:'旅館大阪屋',
   items:[
@@ -547,7 +549,7 @@ const DAYS = [
    {t:'15:00',p:'睡魔之家 ワ・ラッセ',w:'大型睡魔燈籠展示',$:'約 ¥620',n:'9–4 月營業至 18:00，幾乎無休',must:1},
    {t:'16:00',p:'A-FACTORY、八甲田丸',w:'青森灣大橋',tags:['walk'],$:'約 ¥510',n:'日落 16:38，海灣邊 magic hour'},
    {t:'18:00',p:'青森市區',w:'晚餐',n:'市區蔬食與印度料理選擇最多的一天'},
-   {t:'19:00',p:'青森站前',w:'青森日航城市酒店 入住',tags:['stay'],stay:1,$:'¥17,974／間',n:'預約 06NEP1G5・禁菸豪華房、Queen Size 床、素泊・不可免費取消'}
+   {t:'19:00',p:'青森站前',w:'青森日航城市酒店 入住',tags:['stay'],stay:1,$:'¥17,974／間',n:'禁菸豪華房、Queen Size 床、素泊・不可免費取消'}
   ]},
  {date:'2026-10-30',md:'10/30',wd:'五',title:'青森 → 東京',chips:['新幹線日'],icon:'train',color:'var(--green)',tint:'var(--green-tint)',stay:'JR-East Hotel Mets Komagome',
   items:[
@@ -556,7 +558,7 @@ const DAYS = [
    {t:'11:52',p:'新青森',w:'はやぶさ 22 号 → 上野',tags:['shinkansen'],$:'¥17,700',n:'車票已綁定 IC 卡'},
    {t:'16:26',p:'上野',w:'抵達（東京站 16:32）'},
    {t:'17:30',p:'上野・御徒町',w:'阿美橫丁伴手禮',tags:['walk']},
-   {t:'19:00',p:'駒込',w:'JR-East Hotel Mets Komagome',tags:['stay'],stay:1,$:'¥42,000／2 晚',n:'品魁訂・入住 2 天前取消免費・單人床'}
+   {t:'19:00',p:'駒込',w:'JR-East Hotel Mets Komagome',tags:['stay'],stay:1,$:'¥42,000／2 晚',n:'入住 2 天前取消免費・單人床'}
   ]},
  {date:'2026-10-31',md:'10/31',wd:'六',title:'東京自由活動・萬聖節',chips:['自由日'],icon:'pumpkin',color:'var(--yellow)',tint:'var(--yellow-tint)',stay:'JR-East Hotel Mets Komagome',
   items:[
@@ -693,11 +695,11 @@ panel.addEventListener('touchend',e=>{
 /* ---------- todo ---------- */
 const LISTS = [
   {id:'jp',title:'到日本要做的事',dot:'var(--coral)',items:[
-    '去日本郵局 ATM 試試看領出帳戶中所有日幣現金 → 如果不行？領現金夠嗎？','買小本子','卸妝膏','拍照姿勢','買化妝品（卸妝膏、面膜、CAME？）','買打掃好用物品（清潔、工具）','買藥品（去汙小瓶、DHC 護唇膏給媽媽十條、染髮、蕁麻疹藥）','相機','買襪子、光腿神器、毛巾','買隨身背包','買飾品','買伴手禮（公司一盒就好、紫甯碗雲？、家裡）','買可愛的碗盤和杯子','暈車藥、止痛藥、胃藥、感冒藥','記得開車是右駕','墨鏡'],done:[]},
+    '買小本子','卸妝膏','拍照姿勢','買化妝品（卸妝膏、面膜、CAME？）','買打掃好用物品（清潔、工具）','買藥品（去汙小瓶、DHC 護唇膏、染髮）','相機','買襪子、光腿神器、毛巾','買隨身背包','買飾品','買伴手禮（公司、家裡）','買可愛的碗盤和杯子','暈車藥、止痛藥、胃藥、感冒藥','記得開車是右駕','墨鏡'],done:[]},
   {id:'check',title:'出發前要查的資訊',dot:'var(--water)',items:[
     'JR 八戶線當日時刻（10/25 下午往鮫、傍晚回本八戶的班次）','JR 巴士東北秋季時刻表（9/18–11/17），石ヶ戸 → 子之口','弘前「菊と紅葉まつり」2026 年日程（點燈時間對不上，有套票可考慮）','八甲田纜車官網即時影像（出發前 2–3 天），決定 10/27 上不上山','十和田湖遊覽船 11 月上旬停航，確認 10/27 仍有航班','新幹線劃位：10/25 はやぶさ 9 号、10/30 はやぶさ 22 号'],done:[]},
   {id:'pack',title:'行李打包',dot:'var(--green)',items:[
-    '帶家裡的米色風衣、黑色羽絨','白色圍巾、毛帽、口罩、手套','測眼睛度數，確認舊的隱形眼鏡要送人還是可以繼續用','確認百名城蓋章本在家還是租屋處？','開信用卡額度上限','護照、駕照譯本、台灣駕照','保溫瓶','素食泡麵（放得下就用碗裝的）、沖泡粥／湯？','摺疊矽膠碗？餐具','盥洗用品、牙刷牙膏、乳液保養品','摺疊傘、腳架','行動電源放隨身行李不可託運、各種充電器電池電線','垃圾袋裝髒衣服','帶上班電腦滑鼠充電線','帶吸在車上的手機支架，很重要！'],done:'all'}
+    '帶家裡的米色風衣、黑色羽絨','白色圍巾、毛帽、口罩、手套','帶百名城蓋章本','護照、駕照譯本、台灣駕照','保溫瓶','素食泡麵（放得下就用碗裝的）、沖泡粥／湯？','摺疊矽膠碗？餐具','盥洗用品、牙刷牙膏、乳液保養品','摺疊傘、腳架','行動電源放隨身行李不可託運、各種充電器電池電線','垃圾袋裝髒衣服','帶吸在車上的手機支架，很重要！'],done:'all'}
 ];
 const CHECK = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 L6.5 12 L13 4.5" fill="none" stroke="#3E3A39" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const saved = store.get('tohoku-todo-v1') || {};
@@ -722,12 +724,12 @@ grid.appendChild(memo);
 
 /* ---------- stays ---------- */
 const STAYS=[
- {d:'10/24',n:'1 晚',name:'LANDABOUT TOKYO',area:'東京・鶯谷',ok:1,price:'NT$4,164',note:'Agoda・品魁訂。飯店附餐酒館，周邊有居酒屋',c:'var(--water)'},
- {d:'10/25',n:'1 晚',name:'JR 東日本飯店 Mets 八戶',area:'八戶站（尻內町館田 1-1）',ok:1,price:'¥14,548／間',ref:'06NCRXR9',note:'12 平米、140cm 雙人床、素泊・不可免費取消',c:'var(--green)'},
+ {d:'10/24',n:'1 晚',name:'LANDABOUT TOKYO',area:'東京・鶯谷',ok:1,price:'NT$4,164',note:'飯店附餐酒館，周邊有居酒屋',c:'var(--water)'},
+ {d:'10/25',n:'1 晚',name:'JR 東日本飯店 Mets 八戶',area:'八戶站（尻內町館田 1-1）',ok:1,price:'¥14,548／間',note:'12 平米、140cm 雙人床、素泊・不可免費取消',c:'var(--green)'},
  {d:'10/26',n:'1 晚',name:'旅館大阪屋',area:'十和田市',ok:1,price:'¥9,400（現金現付）',note:'和室 8 疊、素泊、免費停車・可免費取消・預計 17:30 check-in',c:'var(--coral)'},
  {d:'10/27–28',n:'2 晚',name:'齋栄旅館',area:'弘前市區',price:'¥23,360／2 晚',note:'當天付款',c:'var(--yellow)'},
- {d:'10/29',n:'1 晚',name:'青森日航城市酒店',area:'青森站前（安方 2-4-12）',ok:1,price:'¥17,974／間',ref:'06NEP1G5',note:'禁菸豪華房、Queen Size 床、素泊・不可免費取消',c:'var(--coral)'},
- {d:'10/30–31',n:'2 晚',name:'JR-East Hotel Mets Komagome',area:'東京・駒込',price:'¥42,000／2 晚',note:'品魁訂・入住 2 天前取消免費・單人床',c:'var(--green)'}
+ {d:'10/29',n:'1 晚',name:'青森日航城市酒店',area:'青森站前（安方 2-4-12）',ok:1,price:'¥17,974／間',note:'禁菸豪華房、Queen Size 床、素泊・不可免費取消',c:'var(--coral)'},
+ {d:'10/30–31',n:'2 晚',name:'JR-East Hotel Mets Komagome',area:'東京・駒込',price:'¥42,000／2 晚',note:'入住 2 天前取消免費・單人床',c:'var(--green)'}
 ];
 const sl=document.getElementById('stay-list');
 STAYS.forEach((s,k)=>{
@@ -760,5 +762,4 @@ links.forEach(a=>a.addEventListener('click',e=>{
 }));
 })();
 </script>
-
 </body></html>
